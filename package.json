@@ -1,0 +1,36 @@
+{
+  "name": "studying-db-in-memory",
+  "version": "1.0.0",
+  "description": "Projeto criado para implementar estudos sobre banco de dados em memória utilizando Valkey (alternativa open source mantida pela comunidade e gerenciada pela Linux Foundation e apoiado por grandes empresas como AWS, Google e Oracle.)",
+  "keywords": [
+    "valkey",
+    "redis",
+    "project",
+    "database"
+  ],
+  "homepage": "https://github.com/RubensJr21/studying-db-in-memory#readme",
+  "bugs": {
+    "url": "https://github.com/RubensJr21/studying-db-in-memory/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubensJr21/studying-db-in-memory.git"
+  },
+  "license": "ISC",
+  "author": "Rubens Jr",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "mongo": "node --experimental-transform-types mongo.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^25.3.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.4"
+  }
+}
